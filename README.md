@@ -7,7 +7,7 @@ l'insertion automatique de données via un fichier SQL dans le répertoire Resou
 
 ![exemple](images/swaggerPinard04.png)
 
-[Pour la configuration avec Swagger 3.0 c'est ici]([Retour vers les exercices](https://pbouget.github.io/cours/framework-back/swagger/README.html)
+[Pour la configuration avec Swagger 3.0 c'est ici](https://pbouget.github.io/cours/framework-back/swagger/README.html)
 
 ## Insertion des données
 
@@ -41,9 +41,12 @@ INSERT INTO vin (code_produit, designation, couleur, prix, quantite, region, rem
 (999999, 'Clos du Marquis 2007', 'ROUGE', 22.9, 15, 'Bordeaux (Saint-Julien)', 0);
 ```
 
-
 ## Projet Eclipse/Gradle
 
 - Importez tout simplement le projet Pinard04Swagger *Gradle* depuis votre IDE.
 - Pensez à modifier le nom de la base de données(qui doit exister !), le username et le password
 - Faites un refresh de Gradle pour les dépendances et lancez votre application
+
+[Retour vers les exercices](https://pbouget.github.io/cours/framework-back/1-jpa-orm/mapping-orm.html)
+
+[Retour vers le cours complet](https://pbouget.github.io/cours/)
